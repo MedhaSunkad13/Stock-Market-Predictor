@@ -1,11 +1,12 @@
 import numpy as np
 import pandas as  pd
 import yfinance as yf
-from tensorflow.keras.models import load_model 
+import os
+from keras.models import load_model
 import matplotlib.pyplot as plt
 import streamlit as st
 
-model = load_model('C:\\Users\\dell\\OneDrive\\Desktop\\Python Projects\\Stock-Market-Predictor\\Stock Predictions Model.keras')
+model = load_model('C:/Users/dell/OneDrive/Desktop/Python Projects/Stock-Market-Predictor/Stock Predictions Model.keras')
 
 st.header('Stock Market Predictor')
 
